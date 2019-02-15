@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xt:extensions xmlns:xt="http://www.oxygenxml.com/ns/extension"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.oxygenxml.com/ns/extension http://www.oxygenxml.com/ns/extension/extensions.xsd">
+  <xt:extension id="v1.0">
+    <xt:location href="https://github.com/raducoravu/JATSKit/hl7-framework/master.zip"/>
+    <xt:version>1.0</xt:version>
+    <xt:oxy_version>17.0+</xt:oxy_version>
+    <xt:type>framework</xt:type>
+    <xt:author>Radu Coravu</xt:author>
+    <xt:name>HL7 (v1.0)</xt:name>
+    <xt:description xmlns="http://www.w3.org/1999/xhtml">
+      <h2>oXygen XML Editor framework for HL7</h2>
+    </xt:description>
+    <xt:license><![CDATA[This work is published under an Apache 2.0 license.
+      
+]]></xt:license>
+  </xt:extension>
+</xt:extensions>
