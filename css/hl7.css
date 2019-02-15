@@ -1,1 +1,14 @@
 @import "xhtml.css";
+
+@namespace hl7 "http://hl7.org/fhir";
+
+hl7|* {
+    display:block
+}
+
+hl7|id {
+    content: "ID: " oxy_textfield(
+          edit, '@value',
+          columns, 40);
+
+}
