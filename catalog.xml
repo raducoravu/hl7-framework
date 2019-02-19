@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <rewriteSystem systemIdStartString="http://hl7.org/fhir/DSTU2/" rewritePrefix="xsd/DSTU2/"/>
+    <rewriteURI uriStartString="http://hl7.org/fhir/DSTU2/" rewritePrefix="xsd/DSTU2/"/>
+    <rewriteSystem systemIdStartString="https://hl7.org/fhir/DSTU2/" rewritePrefix="xsd/DSTU2/"/>
+    <rewriteURI uriStartString="https://hl7.org/fhir/DSTU2/" rewritePrefix="xsd/DSTU2/"/>
+    
     <rewriteSystem systemIdStartString="http://hl7.org/fhir/STU3/" rewritePrefix="xsd/STU3/"/>
     <rewriteURI uriStartString="http://hl7.org/fhir/STU3/" rewritePrefix="xsd/STU3/"/>
+    <rewriteSystem systemIdStartString="https://hl7.org/fhir/STU3/" rewritePrefix="xsd/STU3/"/>
+    <rewriteURI uriStartString="https://hl7.org/fhir/STU3/" rewritePrefix="xsd/STU3/"/>
+    
+    <rewriteSystem systemIdStartString="http://hl7.org/fhir/R4/" rewritePrefix="xsd/R4/"/>
+    <rewriteURI uriStartString="http://hl7.org/fhir/R4/" rewritePrefix="xsd/R4/"/>
+    <rewriteSystem systemIdStartString="https://hl7.org/fhir/R4/" rewritePrefix="xsd/R4/"/>
+    <rewriteURI uriStartString="https://hl7.org/fhir/R4/" rewritePrefix="xsd/R4/"/>
 </catalog>
