@@ -1,2 +1,7 @@
-This framework uses schemas licensed under Creative Commons:
+This framework uses XML schemas/schematron licensed under Creative Commons "No Rights Reserved" (CC0) terms and conditions as outlined in respective HL7® FHIR® releases:
+
+HL7®, HEALTH LEVEL SEVEN®, FHIR® and the FHIR ® are trademarks owned by Health Level Seven International, registered with the United States Patent and Trademark Office.
+
+http://hl7.org/fhir/DSTU2/license.html
+http://hl7.org/fhir/STU3/license.html
 http://hl7.org/fhir/R4/license.html
