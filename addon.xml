@@ -8,9 +8,9 @@
     <xt:oxy_version>17.0+</xt:oxy_version>
     <xt:type>framework</xt:type>
     <xt:author>Radu Coravu</xt:author>
-    <xt:name>HL7 (v1.0)</xt:name>
+    <xt:name>HL7 FHIR for oXygen XML</xt:name>
     <xt:description xmlns="http://www.w3.org/1999/xhtml">
-      <h2>oXygen XML Editor framework for HL7</h2>
+      <h2>oXygen XML Editor framework for HL7© FHIR©</h2>
     </xt:description>
     <xt:license><![CDATA[This work is published under an Apache 2.0 license.
       
