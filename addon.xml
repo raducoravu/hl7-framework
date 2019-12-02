@@ -1,19 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xt:extensions xmlns:xt="http://www.oxygenxml.com/ns/extension"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.oxygenxml.com/ns/extension http://www.oxygenxml.com/ns/extension/extensions.xsd">
-  <xt:extension id="v1.0">
-    <xt:location href="https://github.com/raducoravu/hl7-framework/archive/master.zip"/>
-    <xt:version>1.2.0</xt:version>
-    <xt:oxy_version>17.0+</xt:oxy_version>
-    <xt:type>framework</xt:type>
-    <xt:author>Radu Coravu</xt:author>
-    <xt:name>HL7 FHIR for oXygen XML</xt:name>
-    <xt:description xmlns="http://www.w3.org/1999/xhtml">
-      <h2>oXygen XML Editor framework for HL7® FHIR®</h2>
-    </xt:description>
-    <xt:license><![CDATA[This work is published under an Apache 2.0 license.
+<xt:extensions xmlns:xt="http://www.oxygenxml.com/ns/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.oxygenxml.com/ns/extension http://www.oxygenxml.com/ns/extension/extensions.xsd">
+    <xt:extension id="v1.0">
+        <xt:location href="https://github.com/raducoravu/hl7-framework/archive/master.zip"/>
+        <xt:version>1.2.0</xt:version>
+        <xt:oxy_version>17.0+</xt:oxy_version>
+        <xt:type>framework</xt:type>
+        <xt:author>Radu Coravu</xt:author>
+        <xt:name>HL7 FHIR for oXygen XML</xt:name>
+        <xt:description xmlns="http://www.w3.org/1999/xhtml">
+            <h2>oXygen XML Editor framework for HL7® FHIR®</h2>
+            <div>
+                <p>Provides XML catalog containing all DSTU2, STU3, R4 schemas (XSD) and schematrons (SCH). The schemas help you with content completion and structure validation. The schematrons help you with slightly more depth in the validation. The XML catalog this framework provides, helps in the performance of that all.</p>
+                <p>For schema based completion always use https://hl7.org/fhir/[version]/fhir-all.xsd where [version] is any of DSTU2, STU3 or R4. For schematron based validation always use https://hl7.org/fhir/[version]/[resource].xsd where [version] is the same as on the schema, and [resource] is the name of the resource in lower case.</p>
+            </div>
+            <h3>Release Notes</h3>
+            <div>
+                <p><strong>version 1.2.0</strong></p>
+                <ul>
+                    <li>Updated STU3 sources to FHIR version 3.0.2 as-is</li>
+                    <li>Updated R4 sources to FHIR version 4.0.1 after fixing technical errors in a number of invariants in schematron (and reported those at chat.fhir.org)</li>
+                </ul>
+                <p><strong>version 1.1.0</strong></p>
+                <ul>
+                    <li>Add DSTU2 sources from FHIR version 1.0.2 as-is</li>
+                    <li>Add R4 sources from FHIR version 4.0.0 as-is</li>
+                </ul>
+                <p><strong>version 1.0.0</strong></p>
+                <ul>
+                    <li>Add STU3 sources from FHIR version 3.0.1 as-is</li>
+                </ul>
+            </div>
+        </xt:description>
+        <xt:license><![CDATA[This work is published under an Apache 2.0 license.
       
 ]]></xt:license>
-  </xt:extension>
+    </xt:extension>
 </xt:extensions>
