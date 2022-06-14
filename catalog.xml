@@ -14,4 +14,9 @@
     <rewriteURI uriStartString="http://hl7.org/fhir/R4/" rewritePrefix="xsd/R4/"/>
     <rewriteSystem systemIdStartString="https://hl7.org/fhir/R4/" rewritePrefix="xsd/R4/"/>
     <rewriteURI uriStartString="https://hl7.org/fhir/R4/" rewritePrefix="xsd/R4/"/>
+    
+    <rewriteSystem systemIdStartString="http://hl7.org/fhir/R4B/" rewritePrefix="xsd/R4B/"/>
+    <rewriteURI uriStartString="http://hl7.org/fhir/R4B/" rewritePrefix="xsd/R4B/"/>
+    <rewriteSystem systemIdStartString="https://hl7.org/fhir/R4B/" rewritePrefix="xsd/R4B/"/>
+    <rewriteURI uriStartString="https://hl7.org/fhir/R4B/" rewritePrefix="xsd/R4B/"/>
 </catalog>
