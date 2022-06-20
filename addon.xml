@@ -2,7 +2,7 @@
 <xt:extensions xmlns:xt="http://www.oxygenxml.com/ns/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.oxygenxml.com/ns/extension http://www.oxygenxml.com/ns/extension/extensions.xsd">
     <xt:extension id="v1.0">
         <xt:location href="https://github.com/raducoravu/hl7-framework/archive/master.zip"/>
-        <xt:version>1.3.0</xt:version>
+        <xt:version>1.3.1</xt:version>
         <xt:oxy_version>17.0+</xt:oxy_version>
         <xt:type>framework</xt:type>
         <xt:author>Radu Coravu</xt:author>
@@ -15,6 +15,11 @@
             </div>
             <h3>Release Notes</h3>
             <div>
+                <p><strong>version 1.3.1</strong></p>
+                <ul>
+                    <li>Updated STU3, R4, R4B eld-16 and other regular expressions to be more compliant</li>
+                    <li>Updated R4B tests for f:...[x] to say f:*[starts-with(local-name(), '...')]</li>
+                </ul>
                 <p><strong>version 1.3.0</strong></p>
                 <ul>
                     <li>Updated R4 eld-19 regular expression to be more compliant</li>

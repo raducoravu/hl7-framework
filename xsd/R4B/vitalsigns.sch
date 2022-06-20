@@ -13,7 +13,7 @@
     <sch:title>f:Observation</sch:title>
     <sch:rule context="f:Observation">
       <sch:assert test="count(f:subject) &gt;= 1">subject: minimum cardinality of 'subject' is 1</sch:assert>
-      <sch:assert test="count(f:effective[x]) &gt;= 1">effective[x]: minimum cardinality of 'effective[x]' is 1</sch:assert>
+      <sch:assert test="count(f:*[starts-with(local-name(), 'effective')]) &gt;= 1">effective[x]: minimum cardinality of 'effective[x]' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
